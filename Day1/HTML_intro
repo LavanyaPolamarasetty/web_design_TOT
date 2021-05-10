@@ -1,0 +1,71 @@
+- HTML : Hyper text markup language
+- HTML5 is version
+- Used to create web pages
+- a Static website contain webpages with fixed content
+
+Struture of HTML:
+	- HTML version (doctype)
+	- Head
+		- it's not visible in the screen
+		- it works on background of website
+		- it contains title, meta tags, favicon images, styles,scrips
+	- Body
+		- it's visible part of the screen 
+		- having 3 parts 
+			- Block level elements
+				* will occupies the enties horizontal space of it's parent / continer and vertical space is height of the          particular content
+				* next element will start in next line
+					- paragraphs
+					- all headings
+					- form
+					- Division
+					- List
+					- table
+					- horizontal
+					- all sematic elements
+
+			- Inline 
+				- this elements which don't occupy the complete width of the screen (we are able to see the output side by side)
+				- span tag
+				- image
+				- anchor
+				- button
+				- input etc..
+
+			- semantic
+				- it clearly describes its meaning to the browser
+				- increasing the acessibility of website
+				- header
+				- footer
+				- section
+				- article
+				- aside
+				- main
+				- nav
+
+
+
+CSS : Cascading style sheets
+	- it's used to apply the beautification of the html document
+Kind of CSS:
+	- Inline
+	- Internal
+	- External
+
+
+selectors:
+- Class Selector(.)
+- Id Selector(#)
+- Group Selector(h1,h2,p,...)
+- Element selector
+- Universal Selector(*)
+
+Syntax:
+Selector{
+	property1 : value1;
+	property2: value2;
+	.
+	.
+	.
+	.
+}

@@ -1,0 +1,67 @@
+JAVASCRIPT: 
+----------
+
+- It's a text based programming language used both client side and server side.
+- It allows to makes the web page interactive
+- Javascript is a dynamic computer programming language
+- It's an interpreted language (line by line execution and thrown an error)
+- It takes less memory but slower
+- case sensitive language
+- It's weekly or untyped language (doesn't mention any data type to variables)
+
+
+JavaScript variables:
+---------- ---------
+- Name must start with a letter (a to Z) or (a-z)
+- after one letter we can use digits (0-9)
+- use _ and $ too to declare a variable
+
+
+Alerts:
+------
+- alert("fdsg")
+- warn()
+- prompt()
+- confirm()
+
+Console statements:
+------- ----------
+- console.log()
+- console.info()
+- console.warn()
+- console.error()
+
+
+Data types:
+---- -----
+- primitive : numbers, strings, boolean, undefined, null
+
+
+Type conversions:
+---- -----------
+- float to number
+- string to number
+- bool to numbers
+
+
+control structures:
+------- ----------
+if:
+ syntax
+ if (condition){
+ //statements
+ }
+
+if-else:
+if(condition){
+	//statements
+}
+
+else{
+	//statements
+}
+
+if else if statements:
+if(condition){
+	//statemnts
+}

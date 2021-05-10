@@ -1,0 +1,119 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="sample">hi</div>
+	<div id="sample">hiii</div>
+</body>
+</html>
+<script type="text/javascript">
+	//here only getelementbyid is unique 
+	var divElement = document.getElementById("sample");
+	// console.log(divElement);
+	for (i of divElement){
+		console.log(i);
+	}
+</script>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="sample">hi</div>
+	<div class="sample">hiii</div>
+</body>
+</html>
+<script type="text/javascript">
+	// here only getelementbyid is unique 
+	var divElement = document.getElementsByClassName("sample");
+	// console.log(divElement);
+	for (i of divElement){
+		console.log(i);
+	}
+</script>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="sample">hi</div>
+	<div class="sample">hiii</div>
+	<p class="simple">paragraph</p>
+</body>
+</html>
+<script type="text/javascript">
+	//here only getelementbyid is unique 
+	var divElement = document.getElementsByTagName("p");
+	// console.log(divElement);
+	for (i of divElement){
+		console.log(i);
+	}
+</script>
+
+
+
+
+ -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="sample">hi</div>
+	<div id="sample">hiii</div>
+	<p class="sample">paragraph</p>
+</body>
+</html>
+<script type="text/javascript">
+	//here only getelementbyid is unique 
+	var divElement = document.getElementById("sample").innerHTML="hello...!";
+</script> -->
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="" ="sample">hi</div>
+	<div class="sample">hiii</div>
+	<p class="sample">paragraph</p>
+</body>
+</html>
+<script type="text/javascript">
+	//here only getelementbyid is unique 
+	var divElement = document.getElementsByClassName("sample").textContent="hello...!";
+	console.log(divElement);
+	for (i of divElement){
+		console.log(i);
+	}
+</script> -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="sample">hi</div>
+	<div id="sample">hiii</div>
+	<p class="sample">paragraph</p>
+</body>
+</html>
+<script type="text/javascript">
+	//here only getelementbyid is unique 
+	// textContent means it given same output 
+	var divElement = document.getElementById("sample").textContent="<h1>hello...!</h1>";
+	console.log(divElement);
+	// for (i of divElement){
+	// 	console.log(i);
+	// }
+</script>
